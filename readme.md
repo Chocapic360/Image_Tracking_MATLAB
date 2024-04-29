@@ -11,4 +11,4 @@ The project is centered around the concept of image tracking, where an imaging s
 The process involves determining which pixels in the image belong to the target/object or the background. This binary image classification allows for the calculation of the center location of an object as the centroid of the target pixels. The centroid is calculated as the average of all row pixels and the average of all column pixels. The size of the object, or the area of the object, is estimated by the total number of target pixels.
 
 ## Error of project
-![Error Data](https://github.com/Chocapic360/Image_Tracking_MATLAB/Error_Data.png)
+![Error Data](https://github.com/Chocapic360/Image_Tracking_MATLAB/assets/48190388/b3999f2b-b3df-4642-9945-fadd9df4d6b8)
