@@ -12,3 +12,4 @@ The process involves determining which pixels in the image belong to the target/
 
 ## Error of project
 ![Error Data](https://github.com/Chocapic360/Image_Tracking_MATLAB/assets/48190388/b3999f2b-b3df-4642-9945-fadd9df4d6b8)
+![Error_Dots](https://github.com/Chocapic360/Image_Tracking_MATLAB/assets/48190388/f19e4388-f225-4819-8d3a-64461bac2eb3)
