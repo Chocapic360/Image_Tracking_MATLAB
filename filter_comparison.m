@@ -21,12 +21,6 @@ disp(['       # frames = ' num2str(num_imgs)])
 disp(['     frame rate = ' num2str(frame_rate) ' fps'])
 disp(['          H x W = ' num2str(height) ' x ' num2str(width)])
 
-% Create the output movie object
-out_fname = 'output.avi';
-video_out_obj = VideoWriter(out_fname);
-video_out_obj.FrameRate = frame_rate;
-open(video_out_obj);
-
 c_row = [];
 c_col = [];
 
@@ -104,13 +98,8 @@ for filters=1:3
     end
 
     % Add the image to the ith frame of the output movie
-    f = im2frame(im2double(I2),gray(256));
-    writeVideo(video_out_obj,f.cdata);
     disp("done")
 end
-
-% Writes the movie data to file when it is closed
-close(video_out_obj);
 
 % Sorted Error Matrix
 error_mat = zeros(3,16);
